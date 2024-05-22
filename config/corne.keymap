@@ -34,6 +34,7 @@
     behaviors {
         td0l {
             compatible = "zmk,behavior-tap-dance";
+            label = "TD0L";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&mo 1>, <&mo 4>;
